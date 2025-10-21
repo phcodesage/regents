@@ -1,6 +1,6 @@
 export default function FirstSection() {
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center px-6 md:px-12 lg:px-24 py-8">
+    <div className="min-h-screen w-full flex flex-col items-center justify-center px-6 md:px-12 lg:px-24 py-8 mb-8">
       <div className="max-w-6xl w-full space-y-8">
         {/* Geometry Course */}
         <div className="space-y-4">
@@ -98,7 +98,7 @@ export default function FirstSection() {
       {/* Student Image - Full Width */}
       <div className="mt-8 w-full">
         <div 
-          className="h-48 md:h-64 w-full bg-cover bg-center"
+          className="h-80 md:h-96 w-full bg-cover bg-center"
           style={{
             backgroundImage: "url('/first-section-image.png')"
           }}
